@@ -4,7 +4,7 @@ import Footer from './Footer'
 import { educationdetail, resumedetail } from './Resumedata'
 
 
-const Resume = () => {
+const  Resume = () => {
     return (
         <>
             {/* navbar  */}

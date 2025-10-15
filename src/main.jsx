@@ -18,17 +18,17 @@ let allpages = createBrowserRouter([
     element: <About />
   },
   {
-    path: "/resume",
+    path: "resume",
     element: <Resume />
   },
 
   {
-    path: "/project",
+    path: "project",
     element: <Project />
   },
 
   {
-    path: "/contact",
+    path: "contact",
     element: <Contact />
   }
 ]);
