@@ -28,10 +28,10 @@ const About = () => {
 
                             <div className='h-[10%] bg-white flex justify-center'>
                                 <div className='flex items-center justify-between w-[60%] mt-3 '>
-                                    <p><FontAwesomeIcon icon={faFacebook} className='icons' /></p>
-                                    <p> <FontAwesomeIcon icon={faTwitter} className='icons' /></p>
-                                    <p><FontAwesomeIcon icon={faLinkedin} className='icons' /></p>
-                                    <p><FontAwesomeIcon icon={faInstagram} className='icons' /></p>
+                                    <p><FontAwesomeIcon icon={faFacebook} className='icons cursor-pointer' /></p>
+                                    <p> <FontAwesomeIcon icon={faTwitter} className='icons cursor-pointer' /></p>
+                                    <p><FontAwesomeIcon icon={faLinkedin} className='icons cursor-pointer' /></p>
+                                    <p><FontAwesomeIcon icon={faInstagram} className='icons cursor-pointer' /></p>
                                 </div>
                             </div>
                         </div>
@@ -47,10 +47,14 @@ const About = () => {
                                 </Link>
                             </div>
                             <div>
-                                <p className='text-[15px] pt-12 font-light'>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.</p>
+                                <p className='text-[15px] pt-12 font-light'>I am Information and technology student.I consider my self a
+                                    responsible and orderly person.I am looking foward for my first
+                                    work experience.</p>
                             </div>
                             <div>
-                                <p className='text-[15px] font-light'>I’m a great place for you to tell a story and let your users know a little more about you.
+                                <p className='text-[15px] font-light'>To be a professional and to utilize my skill and knowledge to
+                                    full fill the requirement of the organization in customer
+                                    service.
                                 </p>
                             </div>
                         </div>

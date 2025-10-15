@@ -1,40 +1,29 @@
 export let resumedetail = [
 
     {
-        title: "2035 - Present",
-        position: "JOB POSITION",
-        cname: "Company Name",
-        clocation: "Company Location",
-        resumeinfo: "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.",
-        resinfo: "I’m a great place for you to tell a story and let your users know a little more about you.",
+        title: "2025 - Present",
+        position: "MERN Stack Developer Intern",
+        cname: "Amar Infotech",
+        duration: "May 2025- Dec 2025",
+        resumeinfo: "Developed full-stack website using MongoDB, Express.js, React, Node.js. Built RESTful APIs and integrated them with frontend React components.Designed responsive and user-friendly UI using CSS, Bootstrap, and Tailwind CSS.Collaborated in a team environment, participated in code reviews, and followed Git/GitHub workflow.",
     },
 
-    {
-        title: "2035 - 2035",
-        position: "JOB POSITION",
-        cname: "Company Name",
-        clocation: "Company Location",
-        resumeinfo: "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.",
-        resinfo: "I’m a great place for you to tell a story and let your users know a little more about you.",
-    },
+
 ]
- // education 
+// education 
 export let educationdetail = [
     {
-        clgtitle: "2025 - Present",
-        universatyname: "UNIVERSITY NAME",
-        degree: "Degree Level",
-        universatylocation: "University Location",
-        uniinfo: "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.",
-        universatyinfo: "I’m a great place for you to tell a story and let your users know a little more about you.",
+        clgtitle: "2021",
+        universatyname: "Shree Bhagyoday Vidhya Mandir",
+        degree: "12th- Commerce",
+        universatylocation: "Vadodar,Gujrat",
+        uniinfo: "Successfully completed higher secondary education with 80.14%.Gained foundational knowledge in[Account,State].Strengthened skills in critical thinking, time management, and teamwork.",
     },
-
     {
-        clgtitle: "2025 - Present",
-        universatyname: "UNIVERSITY NAME",
-        degree: "Degree Level",
-        universatylocation: "University Location",
-        uniinfo: "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.",
-        universatyinfo: "I’m a great place for you to tell a story and let your users know a little more about you.",
-    }
+        clgtitle: "2022-2025",
+        universatyname: "Bhakt Kavi Narshi Mehta University",
+        degree: "Bachelor of Science in Information Technology",
+        universatylocation: "Junagadh,Gujrat",
+        uniinfo: "I completed my B.Sc. IT with a focus on full-stack web development. I learned technologies such as JavaScript, React, Node.js, and MongoDB, and built several practical projects, including a portfolio website and CRUD applications.",
+    },
 ]

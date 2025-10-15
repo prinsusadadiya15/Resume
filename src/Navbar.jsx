@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
         <li className='list-[square] list-inside text-[blue] text-[35px]'>
-          <span className='text-2xl md:text-4xl font-bold text-black'>Prins Usadadiya</span>
+          <Link to={"/"}><button className='text-2xl md:text-4xl font-bold no-underline text-black'>Prins Usadadiya</button></Link>
         </li>
 
         {/* Desktop Menu */}
@@ -21,7 +21,7 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Hamburger Button */}
-        <button 
+        <button
           className="md:hidden text-3xl text-black"
           onClick={() => setIsOpen(!isOpen)}
         >

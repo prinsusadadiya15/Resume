@@ -10,34 +10,33 @@ import Resume from './Resume';
 
 
 
+
 let allpages = createBrowserRouter([
 
   {
-    path:"/",
-    element:<About />
+    path: "/",
+    element: <About />
   },
-  
   {
-    path:"/resume",
-    element:<Resume />
-  },
-  
-  {
-    path:"/project",
-    element:<Project />
-  },
-  
-  {
-    path:"/contact",
-    element:<Contact />
+    path: "/resume",
+    element: <Resume />
   },
 
+  {
+    path: "/project",
+    element: <Project />
+  },
+
+  {
+    path: "/contact",
+    element: <Contact />
+  }
 ]);
 
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={allpages} />    
+    <RouterProvider router={allpages} />
   </StrictMode>,
 )

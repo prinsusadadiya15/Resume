@@ -23,13 +23,13 @@ const Contact = () => {
                         <input type="text" className='inp1' required /> <br />
 
                         <label htmlFor="" className='pt-[30px]'>Email*</label> <br /><br /><br />
-                        <input type="text" className='inp ps-[250px]' required /> <br />
+                        <input type="text" className='inp w-[420px]' required /> <br />
 
                         <label htmlFor="" className='pt-[30px]'>Subject*</label> <br /><br /><br />
-                        <input type="text" className='inp ps-[250px]' required /><br />
+                        <input type="text" className='inp w-[420px]' required /><br />
 
                         <label htmlFor="" className='pt-[30px]'>Message*</label> <br /><br /><br /><br /><br />
-                        <input type="text" className='inp ps-[250px]' required />
+                        <input type="text" className='inp w-[420px]' required />
 
                         <button className='mt-3 px-8 py-2.5 btn1'>Send</button>
                     </div>

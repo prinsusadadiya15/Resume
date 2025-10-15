@@ -6,6 +6,9 @@
   border-radius: 40px;
   background-color: blue;
   color: white;
+  text-decoration: none;
+  border: 2px solid blue;
+
 }
 
 .btn1:hover {
