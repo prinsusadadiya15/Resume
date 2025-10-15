@@ -10,10 +10,10 @@ const About = () => {
         <>
             <Navbar />
             <div className="main">
-                <div className='bg-[#e6dace] w-[45%] h-[900px] mt-5 relative'>
-                    <div className=" w-[120%] h-[490px] absolute right-[-510px] top-[270px] flex">
-                        <div className='w-[45%] h-[100%] '>
-                            <div className='h-[90%] bg-[#f4ece6] flex flex-col items-center justify-evenly shadow-[-4px_0_10px_rgba(0,0,0,0.3)]'>
+                <div className='bg-[#e6dace] sm:w-[45%] w-[100%] sm:h-[800px] mt-2 relative'>
+                    <div className=" sm:w-[120%] h-[600px] sm:absolute right-[-510px] top-[100px] sm:flex pt-[90px]">
+                        <div className='sm:w-[45%] sm:h-[100%] pt-[20px] sm:pt-[0px] '>
+                            <div className='h-[90%] mx-[30px] sm:mx-[0px] pt-[10px] bg-[#f4ece6] flex flex-col items-center justify-between shadow-[-4px_0_10px_rgba(0,0,0,0.3)]'>
                                 <div>
                                     <img src={MyImg} className='myimg' alt="" />
                                 </div>
@@ -26,7 +26,7 @@ const About = () => {
                                 </div>
                             </div>
 
-                            <div className='h-[10%] bg-white flex justify-center'>
+                            <div className='h-[10%] mx-[30px] sm:mx-[0px] bg-white flex justify-center'>
                                 <div className='flex items-center justify-between w-[60%] mt-3 '>
                                     <p><FontAwesomeIcon icon={faFacebook} className='icons cursor-pointer' /></p>
                                     <p> <FontAwesomeIcon icon={faTwitter} className='icons cursor-pointer' /></p>
@@ -36,7 +36,7 @@ const About = () => {
                             </div>
                         </div>
 
-                        <div className='w-[55%] h-[100%] bg-[white] text-[80px] ms-6 mt-5 font-bold text-[black]'>Hello <br />
+                        <div className='sm:w-[55%] w-[100%] sm:h-[100%] bg-[#e6dace] sm:bg-[white] text-[80px] sm:ms-6 px-[30px] px-[0px] pb-[50px] sm:pb-[0px]  mt-5 font-bold text-[black]'>Hello <br />
                             <p className='text-[25px] pt-3'>Here's Who I am & what I do</p>
                             <div className='text-[15px] mt-8'>
                                 <Link to={'/resume'} >
@@ -62,8 +62,9 @@ const About = () => {
 
                 </div>
             </div>
-
-            <Footer />
+            <div className='sm:pt-[0px] pt-[530px]'>
+                <Footer />
+            </div>
         </>
     )
 }

@@ -29,16 +29,15 @@ const  Resume = () => {
                             return (
 
 
-                                <div className="box1 bg-white h-[350px] w-[670px] mt-15 shadow-lg shadow-black">
-                                    <div className="flex">
+                                <div className="box1 bg-white sm:h-[350px] sm:w-[670px] mt-15 shadow-lg shadow-black">
+                                    <div className="sm:flex py-[20px] sm:py-[0px]">
                                         <div>
-                                            <p className='text-[25px] font-bold text-[blue] ps-5 pt-[80px]'>{v.title}</p>
-                                            <p className='ps-5 text-[15px]'><b>{v.position}</b></p>
-                                            <p className='ps-5 text-[15px]'>{v.cname}</p>
-                                            <p className='text-[10px] ps-5'>{v.duration}</p>
+                                            <p className='text-[25px] font-bold text-[blue] px-[20px] sm:ps-5 sm:pt-[80px]'>{v.title}</p>
+                                            <p className='px-[20px] sm:ps-5 text-[15px]'><b>{v.position}</b></p>
+                                            <p className='px-[20px] sm:ps-5 text-[15px]'>{v.cname}</p>
+                                            <p className='text-[10px] px-[20px] sm:ps-5'>{v.duration}</p>
                                         </div>
-
-                                        <div className="ps-5 pt-[130px] w-[65%] pe-[30px]">
+                                        <div className="sm:ps-5 px-[20px] sm:pt-[130px] sm:w-[65%] sm:pe-[30px]">
                                             <p>{v.resumeinfo}</p>
                                         </div>
                                     </div>
@@ -55,16 +54,16 @@ const  Resume = () => {
 
                     {
                         educationdetail.map((v, i) => {
-                            return (<div className="box1 bg-white h-[350px] w-[670px] mt-15 shadow-lg shadow-black">
-                                <div className="flex">
+                            return (<div className="box1 bg-white sm:h-[350px] sm:w-[670px] mt-15 shadow-lg shadow-black">
+                                <div className="sm:flex py-[20px] sm:py-[0px]">
                                     <div>
-                                        <p className='text-[25px] font-bold text-[blue] ps-5 pt-[80px]'>{v.clgtitle}</p>
-                                        <p className='ps-5 text-[15px]'>{v.universatyname}</p>
-                                        <p className='text-[10px] ps-5'>{v.degree}</p>
-                                        <p className='text-[10px] ps-5'>{v.universatylocation}</p>
+                                        <p className='text-[25px] font-bold text-[blue] ps-[20px] sm:ps-5 sm:pt-[80px]'>{v.clgtitle}</p>
+                                        <p className='ps-[20px] sm:ps-5 text-[15px]'>{v.universatyname}</p>
+                                        <p className='text-[10px] ps-[20px] sm:ps-5'>{v.degree}</p>
+                                        <p className='text-[10px] ps-[20px] sm:ps-5'>{v.universatylocation}</p>
                                     </div>
 
-                                    <div className="ps-2 pt-[130px] w-[45%] ms-[50px]">
+                                    <div className="px-[20px] sm:ps-2 sm:pt-[130px] sm:w-[45%] sm:ms-[50px]">
                                         <p>{v.uniinfo}</p>
                                     </div>
                                 </div>
@@ -75,11 +74,11 @@ const  Resume = () => {
 
 
                     {/* last box  */}
-                    <div className="box1 bg-white h-[500px] w-[670px] mt-15 shadow-lg shadow-black">
-                        <p className='text-[25px] font-bold ps-5 pt-[40px]'>
+                    <div className="box1 bg-white sm:h-[500px]  sm:w-[670px] mt-15 shadow-lg shadow-black pb-[30px]">
+                        <p className='text-[25px] font-bold ps-5 pt-[40px] '>
                             Skills</p>
 
-                        <div className="flex w-[70%]">
+                        <div className="flex sm:w-[70%] flex-wrap">
                             <div>
                                 <li className='list-[square] list-inside  text-[blue] text-[15px] ps-5'><span className='text-black text-[13px]'>Html</span></li>
 
@@ -108,7 +107,7 @@ const  Resume = () => {
                         <p className='text-[25px] font-bold ps-5'>
                             Soft Skill</p>
 
-                        <div className="flex w-[70%]">
+                        <div className="flex w-[70%] flex-wrap">
                             <div>
                                 <li className='list-[square] list-inside  text-[blue] text-[15px] ps-5'><span className='text-black text-[13px]'>Communication Skills</span></li>
 
@@ -125,7 +124,7 @@ const  Resume = () => {
                         <p className='text-[25px] font-bold ps-5 pt-[20px]'>
                             Languages</p>
                         <div>
-                            <div className='flex'>
+                            <div className='flex flex-wrap'>
                                 <li className='list-[square] list-inside text-[blue] text-[15px] ps-5'><span className='text-black text-[13px]'>Gujrati (native)</span></li>
 
                                 <li className='list-[square] list-inside text-[blue] text-[15px] ps-5'><span className='text-black text-[13px]'>Hindi</span></li>

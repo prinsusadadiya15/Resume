@@ -33,10 +33,10 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden bg-white border-t border-gray-200 shadow-md">
           <div className="flex flex-col items-center py-4 space-y-4">
-            <Link onClick={() => setIsOpen(false)} to='/' className='text-black hover:text-blue-600'>ABOUT ME</Link>
-            <Link onClick={() => setIsOpen(false)} to='/resume' className='text-black hover:text-blue-600'>RESUME</Link>
-            <Link onClick={() => setIsOpen(false)} to='/project' className='text-black hover:text-blue-600'>PROJECTS</Link>
-            <Link onClick={() => setIsOpen(false)} to='/contact' className='text-black hover:text-blue-600'>CONTACT</Link>
+            <Link onClick={() => setIsOpen(false)} to='/' className='text-black hover:text-blue-600 text-decoration-none'>ABOUT ME</Link>
+            <Link onClick={() => setIsOpen(false)} to='/resume' className='text-black hover:text-blue-600 text-decoration-none'>RESUME</Link>
+            <Link onClick={() => setIsOpen(false)} to='/project' className='text-black hover:text-blue-600 text-decoration-none '>PROJECTS</Link>
+            <Link onClick={() => setIsOpen(false)} to='/contact' className='text-black hover:text-blue-600 text-decoration-none '>CONTACT</Link>
           </div>
         </div>
       )}

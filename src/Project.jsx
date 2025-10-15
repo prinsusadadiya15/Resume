@@ -18,15 +18,15 @@ const Project = () => {
                     <li className='list-[square] list-inside text-[blue] text-[35px]'><span className='text-black '>Projects</span></li>
                 </div>
 
-                <p className='text-center pt-[50px] pb-[50px]'>Crafting dynamic, responsive, and scalable website using the MERN stack. <br /> I focus on building seamless user experiences backed by efficient, secure, and modern backend systems.</p>
+                <p className='text-center px-[20px] pt-[50px] pb-[50px]'>Crafting dynamic, responsive, and scalable website using the MERN stack. <br /> I focus on building seamless user experiences backed by efficient, secure, and modern backend systems.</p>
 
                 {/* box  */}
 
                 {pr1.map((v, i) => {
                     return (<>
                         <div className="flex justify-center pt-[65px]">
-                            <div className='w-[750px] h-[400px] flex'>
-                                <div className='bg-white  w-[60%] h-[100%] shadow-lg shadow-black '>
+                            <div className='sm:w-[750px] h-[560px] sm:h-[400px] flex'>
+                                <div className='bg-white  w-[60%] h-[100%] pb-[30px] shadow-lg shadow-black '>
                                     <div className='bg-blue-600 h-[50px] w-[10px] mt-[50px]'></div>
                                     <div className="flex">
                                         <p className='text-[20px] text-[blue] font-bold ps-8 title'>{v.title}</p>
