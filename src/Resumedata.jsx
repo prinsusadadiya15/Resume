@@ -13,7 +13,7 @@ export let resumedetail = [
 // education 
 export let educationdetail = [
     {
-        clgtitle: "2021",
+        clgtitle: "2022",
         universatyname: "Shree Bhagyoday Vidhya Mandir",
         degree: "12th- Commerce",
         universatylocation: "Vadodar,Gujrat",
