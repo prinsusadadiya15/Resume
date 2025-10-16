@@ -36,6 +36,8 @@ const Project = () => {
                                     <p className='font-bold text-[13px] ps-[33px] title-1'>{v.role}</p>
 
                                     <p className='ps-4 w-[90%] pt-2.5'>{v.detail}</p>
+
+                                    <a href={v.path}><button className='btn1'>{v.btn}</button></a>
                                 </div>
                                 <div className='bg-gray-300 sm:w-[40%] h-[300px] sm:h-[100%] overflow-y-scroll' style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
                                     <img src={v.url} alt="" className='w-[100%]' />
