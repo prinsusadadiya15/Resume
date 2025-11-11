@@ -4,6 +4,8 @@ import img3 from '../img/flipkart.png'
 import img4 from '../img/icecream.png'
 import img5 from '../img/amazon.png'
 import img6 from '../img/ninom.png'
+import img7 from '../img/foodportfolio.png'
+
 
 
 export let pr1 = [
@@ -60,6 +62,14 @@ export let pr1 = [
         detail: "Developed a responsive fruit store website to showcase products and promote online sales.Designed layouts for product listings, pricing, and promotional sections using Bootstrap grids and components.Styled the website with CSS and Bootstrap to ensure a modern and clean user interface.Implemented navigation menus and responsive design for smooth browsing on desktops, tablets, and mobile devices.",
         btn: "See Code",
         path: "https://github.com/prinsusadadiya15/Ninom-Fruit-Website",
+    },
+    {
+        url: img7,
+        title: "Food Portfolio",
+        role: "Frontend Developer",
+        detail: "A modern, responsive Food Portfolio website built with React and Tailwind CSS, designed to showcase dishes, culinary skills, and food photography with a clean and visually engaging layout. The site features a dynamic component-based structure, fast loading performance, and fully responsive sections optimized for mobile and desktop.",
+        btn: "See Code",
+        path: "https://github.com/prinsusadadiya15/Resume",
     },
 
 ] 
